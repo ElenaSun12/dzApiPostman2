@@ -16,6 +16,6 @@ public class PostmanEchoTest {
                 .then()
                 .statusCode(200)
                 // Проверяем, что в поле "data" содержится отправленный текст
-                .body("data", equalTo("неверно"));
+                .body("data", equalTo("some data"));
     }
 }
